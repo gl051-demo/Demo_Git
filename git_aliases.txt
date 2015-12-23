@@ -1,0 +1,6 @@
+# Useful alias definition to incorporate into your git configuration
+git config --global alias.last 'log -1 HEAD'
+git config --global alias.lol 'log --oneline -graph'
+
+# To list all of your aliases
+git config --list | grep alias
